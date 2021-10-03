@@ -1,7 +1,6 @@
 # Lango - Build Yourself Now
 
-### Live Link :
-  Visit our site  [Lango](https://lango-babulakterfsd.netlify.app)
+### Live Link : [Lango](https://lango-babulakterfsd.netlify.app)
 
 
 #### Technologies I used in this project : 
