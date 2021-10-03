@@ -1,0 +1,65 @@
+[
+    {
+       "id":1,
+       "name":"Chinese Language Course",
+       "duration":"6 months",
+       "certification":"yes",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/chinese.jpg"
+    },
+    {
+       "id":2,
+       "name":"Arabic Language Course",
+       "duration":"3 months",
+       "certification":"yes",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/arabic.jpg"
+    },
+    {
+       "id":3,
+       "name":"Spanish Language Course",
+       "duration":"8 months",
+       "certification":"no",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/spanish.jpg"
+    },
+    {
+       "id":4,
+       "name":"Korean Language Course",
+       "duration":"5 months",
+       "certification":"yes",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/korean.jpg"
+    },
+    {
+       "id":5,
+       "name":"Hindi Language Course",
+       "duration":"3 months",
+       "certification":"no",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/hindi.jpg"
+    },
+    {
+       "id":6,
+       "name":"Greek Language Course",
+       "duration":"12 months",
+       "certification":"yes",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/greek.jpg"
+    },
+    {
+       "id":7,
+       "name":"German Language Course",
+       "duration":"10 months",
+       "certification":"yes",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/german.jpg"
+    },
+    {
+       "id":8,
+       "name":"French Language Course",
+       "duration":"3 months",
+       "certification":"yes",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/french.jpg"
+    },
+    {
+       "id":9,
+       "name":"Urdu Language Course",
+       "duration":"7 months",
+       "certification":"no",
+       "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/urdu.jpg"
+    }
+ ]
