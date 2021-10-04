@@ -74,7 +74,14 @@ const Contact = () => {
                 />
               </Form.Group>
 
-              <Button variant="success" type="submit" className="py-2 px-4">
+              <Button
+                onClick={(event) => {
+                  event.preventDefault();
+                }}
+                variant="success"
+                type="submit"
+                className="py-2 px-4"
+              >
                 Send Your Message
               </Button>
             </Form>
