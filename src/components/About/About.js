@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Ratio, Row, Button } from "react-bootstrap";
+import { Container, Row, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./About.css";
 
 //About Us Component
 const About = () => {
@@ -19,12 +20,11 @@ const About = () => {
       </Row>
       <Row className="d-flex justify-content-center">
         <div className="col-12 col-md-6 my-5 pb-md-5">
-          <Ratio aspectRatio="16x9">
-            <embed
-              type="image/svg+xml"
-              src="https://www.youtube.com/embed/dVED-eG9JVQ"
-            />
-          </Ratio>
+          <img
+            src="https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/about.png"
+            alt="about"
+            className="img-fluid about-img"
+          />
         </div>
         <div className="col-12 col-md-6 my-5 pb-5 mt-md-5">
           <p className="text-secondary ms-md-3 mt-md-3">

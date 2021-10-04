@@ -29,6 +29,9 @@ const Header = () => {
               <Link to="/Services" className="text-decoration-none mx-2">
                 <span className="text-white">Services</span>
               </Link>
+              <Link to="/Offers" className="text-decoration-none mx-2">
+                <span className="text-white">Offers</span>
+              </Link>
               <Link to="/Contact" className="text-decoration-none mx-2">
                 <span className="text-white">Contact</span>
               </Link>
