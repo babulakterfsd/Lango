@@ -8,24 +8,33 @@ import Pricing from "./components/Pricing/Pricing";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./components/NotFound/NotFound";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    fetch("./services.json")
+      .then((response) => response.json())
+      .then((data) => setServices(data));
+  }, []);
+
   return (
     <div>
       <Router>
         <Header></Header>
         <Switch>
           <Route exact path="/">
-            <Home></Home>
+            <Home services={services}></Home>
           </Route>
           <Route exact path="/Home">
-            <Home></Home>
+            <Home services={services}></Home>
           </Route>
           <Route exact path="/About">
             <About></About>
           </Route>
           <Route exact path="/Services">
-            <Services></Services>
+            <Services services={services}></Services>
           </Route>
           <Route exact path="/Pricing">
             <Pricing></Pricing>
