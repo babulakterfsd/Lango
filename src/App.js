@@ -4,7 +4,6 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
-import Pricing from "./components/Pricing/Pricing";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./components/NotFound/NotFound";
@@ -13,6 +12,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [services, setServices] = useState([]);
 
+  //fetching data and setting into state
   useEffect(() => {
     fetch("./services.json")
       .then((response) => response.json())
@@ -35,9 +35,6 @@ function App() {
           </Route>
           <Route exact path="/Services">
             <Services services={services}></Services>
-          </Route>
-          <Route exact path="/Pricing">
-            <Pricing></Pricing>
           </Route>
           <Route exact path="/Contact">
             <Contact></Contact>

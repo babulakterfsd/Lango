@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+//Generating Navigation Bar
 const Header = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Header = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="ms-auto my-2 my-md-0 me-lg-5 fw-semi-bold">
+            <Nav className="ms-auto my-2 my-md-0 me-lg-3 fw-semi-bold">
               <Link to="/Home" className="text-decoration-none mx-2">
                 <span className="text-white">Home</span>
               </Link>
@@ -28,10 +29,7 @@ const Header = () => {
               <Link to="/Services" className="text-decoration-none mx-2">
                 <span className="text-white">Services</span>
               </Link>
-              <Link to="/Pricing" className="text-decoration-none mx-2">
-                <span className="text-white">Pricing</span>
-              </Link>
-              <Link to="/Contact" className="text-decoration-none ">
+              <Link to="/Contact" className="text-decoration-none mx-2">
                 <span className="text-white">Contact</span>
               </Link>
             </Nav>

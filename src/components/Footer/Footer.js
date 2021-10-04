@@ -1,13 +1,14 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
+//Footer component
 const Footer = () => {
   return (
     <Container fluid>
       <Row>
         <div className="footer py-5 bg-dark d-flex flex-wrap justify-content-around">
           <div className="col-12 col-md-3 text-center">
+            {/* Social Icons */}
             <div className="social-links mb-3">
               <h6 className="text-white ms-2">We are social</h6>
               <a
@@ -44,6 +45,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
+          {/* Footer text */}
           <div className="col-12 col-md-4 text-center mb-3">
             <div className="terms">
               <h6 className="text-white">
@@ -52,6 +54,7 @@ const Footer = () => {
               </h6>
             </div>
           </div>
+          {/* Copyright */}
           <div className="col-12 col-md-4 text-center">
             <div className="copyright">
               <h6 className="text-white mt-2">

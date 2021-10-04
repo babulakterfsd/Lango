@@ -4,6 +4,7 @@
        "name":"Chinese Language Course",
        "duration":"6 months",
        "certification":"yes",
+       "price": "25",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/chinese.jpg"
     },
     {
@@ -11,6 +12,7 @@
        "name":"Arabic Language Course",
        "duration":"3 months",
        "certification":"yes",
+       "price": "60",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/arabic.jpg"
     },
     {
@@ -18,6 +20,7 @@
        "name":"Spanish Language Course",
        "duration":"8 months",
        "certification":"no",
+       "price": "80",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/spanish.jpg"
     },
     {
@@ -25,6 +28,7 @@
        "name":"Korean Language Course",
        "duration":"5 months",
        "certification":"yes",
+       "price": "20",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/korean.jpg"
     },
     {
@@ -32,6 +36,7 @@
        "name":"Hindi Language Course",
        "duration":"3 months",
        "certification":"no",
+       "price": "35",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/hindi.jpg"
     },
     {
@@ -39,6 +44,7 @@
        "name":"Greek Language Course",
        "duration":"12 months",
        "certification":"yes",
+       "price": "50",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/greek.jpg"
     },
     {
@@ -46,6 +52,7 @@
        "name":"German Language Course",
        "duration":"10 months",
        "certification":"yes",
+       "price": "40",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/german.jpg"
     },
     {
@@ -53,6 +60,7 @@
        "name":"French Language Course",
        "duration":"3 months",
        "certification":"yes",
+       "price": "100",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/french.jpg"
     },
     {
@@ -60,6 +68,7 @@
        "name":"Urdu Language Course",
        "duration":"7 months",
        "certification":"no",
+       "price": "20",
        "img":"https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/urdu.jpg"
     }
  ]

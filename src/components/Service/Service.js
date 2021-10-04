@@ -1,9 +1,11 @@
 import React from "react";
-import { Card, Button, Col } from "react-bootstrap";
+import { Card, Col, Button } from "react-bootstrap";
 
 const Service = ({ service }) => {
-  const { name, img, certification, duration } = service;
+  //destructuring single properties
+  const { name, img, certification, duration, price } = service;
 
+  //Single Service Component
   return (
     <Col>
       <Card>
@@ -11,10 +13,10 @@ const Service = ({ service }) => {
           src={img}
           alt="carm pic"
           className="img-fluid"
-          style={{ height: "250px", width: "100%" }}
+          style={{ height: "200px", width: "100%" }}
         />
         <hr />
-        <Card.Body>
+        <Card.Body className="text-secondary">
           <Card.Title>
             Course Name: <span className="text-success"> {name}</span>
           </Card.Title>
@@ -27,8 +29,9 @@ const Service = ({ service }) => {
             <span className="text-success fw-bold"> {certification}</span>
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 23 mins ago</small>
+        <Card.Footer className="d-flex flex-wrap justify-content-between">
+          <Button className="btn-success fw-semi-bold">Enroll Now</Button>
+          <h4 className="fw-bolder text-secondary">${price}</h4>
         </Card.Footer>
       </Card>
     </Col>

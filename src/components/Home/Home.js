@@ -3,8 +3,8 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Service from "../Service/Service";
-import Footer from "../Footer/Footer";
 
+//Home Component
 const Home = (props) => {
   const { services } = props;
 
