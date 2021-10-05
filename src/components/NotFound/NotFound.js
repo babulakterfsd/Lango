@@ -18,7 +18,7 @@ const NotFound = () => {
                 className="img-fluid notfoundimg"
               />
               <h1 className="text-danger m-0">404! Page Not Found !!</h1>
-              <Link to="/Home">
+              <Link to="/home">
                 <Button className="btn-success mb-5 mt-3 text-white">
                   Go Back to Home
                 </Button>

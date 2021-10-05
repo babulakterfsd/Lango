@@ -13,7 +13,7 @@ const Service = ({ service }) => {
           src={img}
           alt="carm pic"
           className="img-fluid"
-          style={{ height: "200px", width: "100%" }}
+          style={{ height: "200px", width: "100%", objectFit: "cover" }}
         />
         <hr />
         <Card.Body className="text-secondary">

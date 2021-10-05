@@ -28,14 +28,14 @@ const Offers = () => {
                   <span className="text-danger fw-bold">65%</span> for Discount
                   Covid-19 Survivors !
                 </Card.Title>
-                <Card.Text className="text-secondary">
+                <div className="text-secondary">
                   Survivor Corps is one of the largest and fastest growing
                   grassroots movements connecting, supporting, educating,
                   motivating and mobilizing COVID-19 Survivors to.
                   <p className="text-success fw-semi-bold">
                     Use this promo : U25YCH
                   </p>
-                </Card.Text>
+                </div>
                 <Link to="/Services" className="text-decoration-none">
                   <Button className="btn-success">Buy Our Services</Button>
                 </Link>

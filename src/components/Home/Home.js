@@ -24,7 +24,7 @@ const Home = (props) => {
                 interrelation of language and human nature.Discover how
                 educational language platforms, such as Dexway, can help you.
               </p>
-              <Link to="/Services" className="text-decoration-none">
+              <Link to="/services" className="text-decoration-none">
                 <Button className="btn btn-success text-white fw-bold py-2 px-4">
                   Our Services
                 </Button>
