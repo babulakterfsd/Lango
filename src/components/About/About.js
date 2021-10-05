@@ -39,7 +39,7 @@ const About = () => {
             innovation, competitiveness, and growth. competitiveness, and
             growth. competitiveness, and growth.
           </p>
-          <Link to="/Services" className="text-decoration-none">
+          <Link to="/services" className="text-decoration-none">
             <Button className="btn-success d-block mx-auto">
               Buy Our Services
             </Button>

@@ -36,7 +36,7 @@ const Offers = () => {
                     Use this promo : U25YCH
                   </p>
                 </div>
-                <Link to="/Services" className="text-decoration-none">
+                <Link to="/services" className="text-decoration-none">
                   <Button className="btn-success">Buy Our Services</Button>
                 </Link>
               </Card.Body>
