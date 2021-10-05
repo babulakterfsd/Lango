@@ -11,10 +11,15 @@ const NotFound = () => {
       <Container>
         <Row>
           <div className="col-12 col-md-10 col-lg-8 mx-auto text-center">
-            <div className="error-container mt-5 pt-5">
-              <h1 className="text-danger">404! Page Not Found !!</h1>
+            <div className="error-container">
+              <img
+                src="https://raw.githubusercontent.com/babulakterfsd/imgsrc/main/404.png"
+                alt="404"
+                className="img-fluid notfoundimg"
+              />
+              <h1 className="text-danger m-0">404! Page Not Found !!</h1>
               <Link to="/Home">
-                <Button className="btn-success mt-2 text-white">
+                <Button className="btn-success mb-5 mt-3 text-white">
                   Go Back to Home
                 </Button>
               </Link>
